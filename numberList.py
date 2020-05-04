@@ -27,4 +27,4 @@ def solution(l,t):
         j += 1
     
     return [-1,-1]
-print(solution([4,3,10,2,8], 12))
+

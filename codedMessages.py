@@ -22,6 +22,7 @@ def findLargestMultipleOfThree(L):
         return True 
         
     return False
+
 def countingSort(L):
     countingArray= [0] * RANGE
     for num in L:
@@ -72,13 +73,6 @@ def remainderTwo(L):
         removeElements(L, remainderEquals1Holder[0], remainderEquals1Holder[1])
         return 
 
-def numsNotDivisableByThree(s,e):
-    nums = []
-    for i in range(s,e):
-        if i % 3 != 0:
-            nums.append(i)
-
-    return nums
 
 
 
