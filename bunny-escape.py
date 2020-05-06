@@ -57,7 +57,9 @@ def breadth_first_search(grid, num_row, num_col):
     return float("inf")
 
 
-print(solution([
-   [0, 1, 0, 1, 0, 0, 0], 
-   [0, 0, 0, 1, 0, 1, 0]
-]))
+
+#should return 10
+# print(solution([
+#    [0, 1, 0, 1, 0, 0, 0], 
+#    [0, 0, 0, 1, 0, 1, 0]
+# ]))

@@ -18,6 +18,8 @@ def solution(n):
 
     return ways[n][n] - 1 #subtract out invalid base case stairs must have atleast two stairs 
 
+
+#should return 2
 print(solution(5))
 
 
